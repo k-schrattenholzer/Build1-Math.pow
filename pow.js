@@ -1,5 +1,5 @@
-const raisedToThePowerOf = (base, exponent) => {
-    return Math.pow(base, exponent)
+const toThePowerOf = (base, exponent) => {
+    return base ** exponent;
 }
 
-module.exports = raisedToThePowerOf;
+module.exports = toThePowerOf;
