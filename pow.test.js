@@ -10,4 +10,14 @@ describe('pow', () => {
         expect(result).toEqual(expected);
 
     });
+
+    it('negative bases with fractional exponents should return NaN', () => {
+
+        const expected = NaN;
+
+        const result = toThePowerOf(-7, .5);
+
+        expect(result).toEqual(expected);
+
+    });
 });
